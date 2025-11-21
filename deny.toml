@@ -1,0 +1,8 @@
+[licenses]
+allow = [
+    "MIT",
+    "Unicode-3.0"
+]
+
+[bans]
+multiple-versions = "allow"

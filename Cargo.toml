@@ -1,0 +1,14 @@
+[package]
+name = "udc2-relay"
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+
+[dependencies]
+bytes = "1.10.1"
+thiserror = "2.0.17"
+tokio = { version = "1.48.0", features = ["full"] }
+tracing = "0.1.41"
+
+[dev-dependencies]
+tracing-subscriber = "0.3.20"
